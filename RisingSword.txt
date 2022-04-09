@@ -1,0 +1,16 @@
+Player Faction: US Special Forces
+
+Enemy Faction:
+	Stealth: Light Takistan Insurgents
+	Non-stealth: Heavy Takistan Insurgents, Takistan National Army
+	
+Time, weather, etc. up to players
+	Default is a little after dusk with scattered clouds, no moon. (19:40?)
+
+Premise: US Special Forces attempt to capture an HVT.
+
+
+Notes/Ideas:
+	HVT has a phone/other GPS-using device that players can use to home in on his location; Plus possible decoys or after 1st rescue attempt he loses the phone.
+	Add HALO option in addition to start points
+	Informant has a few last words to say before he dies, maybe a request (give x to my son or something)
