@@ -27,8 +27,6 @@ sia_f_missionName = "";
 sia_f_missionLocationName = "";
 
 sia_f_bluforFactionName = "";
-sia_f_indepFactionName = "";
-sia_f_opforFactionName = "";
 
 sia_f_showStatusHint = true; // Toggle persistent info display.
 

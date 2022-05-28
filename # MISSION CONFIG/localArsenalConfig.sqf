@@ -126,7 +126,7 @@ switch (_role) do
 // DO NOT DELETE OR EDIT vvv
 
 	// Role not listed error
-	case default { [" Role not listed in config: %1", _role] call BIS_fnc_error }; // Log error if role not listed.
+	default { [" Role not listed in config: %1", _role] call BIS_fnc_error }; // Log error if role not listed.
 };
 private _arsenalContents = _roleItems + _globalArsenal;
 {[_x, _arsenalContents, false] call ace_arsenal_fnc_addVirtualItems} forEach sia_f_arsenals;

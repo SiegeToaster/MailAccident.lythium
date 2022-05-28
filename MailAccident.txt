@@ -14,3 +14,6 @@ Notes/Ideas:
 	HVT has a phone/other GPS-using device that players can use to home in on his location; Plus possible decoys or after 1st rescue attempt he loses the phone.
 	Add HALO option in addition to start points
 	Informant has a few last words to say before he dies, maybe a request (give x to my son or something)
+	
+Notes/ToDo:
+	description.ext - header maxPlayers needs to be updated
