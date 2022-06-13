@@ -40,6 +40,7 @@ class CfgFunctions
 {
 	#include "node_modules\@gruppe-adler\replay\cfgFunctions.hpp"
 	#include "sia_f\functions\cfgFunctions.hpp"
+	#include "Functions\CfgFunctions.hpp"
 
 	class TPD
 	{
@@ -52,16 +53,6 @@ class CfgFunctions
 	};
 };
 
-
-class Header
-{
-	gameType =  Coop;
-	minPlayers =  1;
-	maxPlayers = 40;
-};
-
-disabledAI = 1;
-
 // Add GRAD Replay functionality and settings
 
 #include "node_modules\@gruppe-adler\replay\ui\defines.hpp"
@@ -69,7 +60,7 @@ disabledAI = 1;
 
 class GRAD_Replay {
 	precision = 4;                                    // precision of replay, 5 means every 5 seconds one snapshot (number)
-	trackedSides[] = {"west", "east", "independent"};    // defines the sides that will be tracked (possible are "west", "east", "independent", "civilian") (array)
+	trackedSides[] = {"west", "east", "independent", "civilian"};    // defines the sides that will be tracked (possible are "west", "east", "independent", "civilian") (array)
 	stepsPerTick = 1;                                 // defines steps played back at once (number)
 	trackedVehicles = 0;                              // defines if empty and AI steered vehicles will be tracked (0/1)
 	trackedAI = 1;                                    // defines if AI will be tracked (0/1)
@@ -80,8 +71,9 @@ class GRAD_Replay {
 
 #include "# MISSION CONFIG\missionInfo.hpp"
 
-respawn=3;
-respawnOnStart=-1;
+respawnOnStart = -1;
 
 // DO NOT DELETE ^^^
 // ADD YOUR OWN CODE BELOW vvv
+
+#include "GUI\controls.hpp"

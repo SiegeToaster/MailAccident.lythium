@@ -118,6 +118,8 @@ switch (_role) do
 	// Game Master
 	case "gm" : { _roleItems = [] };
 
+	case "marksman": { _roleItems = [] };
+
 	// No role given
 	case "none" : { _roleItems = [] };
 
