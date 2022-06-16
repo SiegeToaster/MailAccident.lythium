@@ -4,10 +4,6 @@ class startSelect {
 	idd = 1111;
 
 	class controls {
-				////////////////////////////////////////////////////////
-		// GUI EDITOR OUTPUT START (by Siege, v1.063, #Woqazy)
-		////////////////////////////////////////////////////////
-
 		class startSelect_background: RscPicture
 		{
 			idc = 1200;
@@ -148,9 +144,5 @@ class startSelect {
 			w = 0.0773437 * safezoneW;
 			h = 0.022 * safezoneH;
 		};
-		////////////////////////////////////////////////////////
-		// GUI EDITOR OUTPUT END
-		////////////////////////////////////////////////////////
-
 	};
 };
