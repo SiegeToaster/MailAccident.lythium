@@ -111,6 +111,7 @@ class startSelect {
 		class startSelect_Ok: RscButton
 		{
 			idc = 1600;
+			action = "call MailAccident_fnc_setStartingPoint"
 
 			x = 0.551562 * safezoneW + safezoneX;
 			y = 0.654 * safezoneH + safezoneY;
