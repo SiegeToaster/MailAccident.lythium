@@ -34,17 +34,31 @@ class startSelect {
 			w = 0.262969 * safezoneW;
 			h = 0.022 * safezoneH;
 		};
-		class startSelect_map: RscMapControl
+		class startSelect_map: RscMapControl // modified from https://github.com/Riouken/cTab/
 		{
 			idc = 561;
-			scaleDefault = 0.1;
-			widthRailWay = 4; // undefined thing
-
+			text = "#(argb,8,8,3)color(1,1,1,1)";
 			x = 0.474219 * safezoneW + safezoneX;
 			y = 0.368 * safezoneH + safezoneY;
 			w = 0.154687 * safezoneW;
 			h = 0.264 * safezoneH;
-			colorBackground[] = {1,1,1,1};
+
+			maxSatelliteAlpha = 10000;
+			alphaFadeStartScale = 10;
+			alphaFadeEndScale = 10;
+
+			// Rendering density coefficients
+			ptsPerSquareSea = 8 / (0.86 / safezoneH);		// seas
+			ptsPerSquareTxt = 8 / (0.86 / safezoneH);		// textures
+			ptsPerSquareCLn = 8 / (0.86 / safezoneH);		// count-lines
+			ptsPerSquareExp = 8 / (0.86 / safezoneH);		// exposure
+			ptsPerSquareCost = 8 / (0.86 / safezoneH);		// cost
+
+			// Rendering thresholds
+			ptsPerSquareFor = 3 / (0.86 / safezoneH);		// forests
+			ptsPerSquareForEdge = 100 / (0.86 / safezoneH);	// forest edges
+			ptsPerSquareRoad = 1.5 / (0.86 / safezoneH);		// roads
+			ptsPerSquareObj = 4 / (0.86 / safezoneH);		// other objects
 		};
 		class startSelect_selectSquad: RscListbox
 		{

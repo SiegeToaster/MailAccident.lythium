@@ -60,8 +60,8 @@ sia_f_manpackRadio = "ACRE_PRC117F"; // "ACRE_PRC77"/"ACRE_PRC117F"
 // ACE Actions Options
 // 
 
-sia_f_enableTPMenu = true; // Enable 'Teleport Menu' on ACE Buttons.
-sia_f_enableTPToSquad = true; // Enable 'Teleport to Squad' on ACE Buttons.
+sia_f_enableTPMenu = false; // Enable 'Teleport Menu' on ACE Buttons.
+sia_f_enableTPToSquad = false; // Enable 'Teleport to Squad' on ACE Buttons.
 sia_f_enableManageKit = true; // Enable 'Manage Kit' on ACE Buttons.
 sia_f_enableLoadoutInfo = true; // Enable 'Update Loadout Info' on ACE Buttons.
 

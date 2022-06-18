@@ -1,6 +1,5 @@
 // server only
 #define GET_GROUP(suffix) (missionNamespace getVariable (_grpName + "_" + suffix))
-#define PRINT(var1) (str (var1)) remoteExec ["systemChat"];
 
 #define SP1_D (235 + random [-45, 0, 45])
 #define SP2_D (340 + random [-45, 0, 45])
