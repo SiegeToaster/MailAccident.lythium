@@ -28,4 +28,13 @@ private _createRallyAction = [
 ] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions", "SIA"], _createRallyAction] call ace_interact_menu_fnc_addActionToClass;
 
-// ToDo: add TP to rally action
+private _tpToRallyAction = [
+	"tpToRally",
+	"Teleport to Rally Point",
+	"",
+	{ [_player] call MailAccident_fnc_tpToRally },
+	{ sia_f_missionStarted }
+] call ace_interact_menu_fnc_createAction;
+{
+	[_x, 0, ["ACE_MainActions"], _tpToRallyAction] call ace_interact_menu_fnc_addActionToObject;
+} forEach sia_f_ACEButtons;

@@ -35,7 +35,7 @@ class startSelect {
 			h = 0.022 * safezoneH;
 		};
 		class startSelect_map: RscMapControl // modified from https://github.com/Riouken/cTab/
-		{
+		{ // toDo find out how to add text markers
 			idc = 561;
 			text = "#(argb,8,8,3)color(1,1,1,1)";
 			x = 0.474219 * safezoneW + safezoneX;
