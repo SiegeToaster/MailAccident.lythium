@@ -26,7 +26,7 @@ _situation = "Some time ago, Major Pvt. Spectre (the HVT) was captured by the lo
 ";
 
 _mission = "Your mission is to locate and rescue a US Army representative of the United Nations.
-<br></br><br></br<img image='images\hvt.paa' width='128' height='256'";
+<br></br><br></br><img image='images\hvt.paa' width='128' height='256'/>";
 
 _execution = "There are two informants that we think may be able to provide information relating to the HVT's location.  The <marker name = 'mrk_inf1'>first</marker> is on the eastern side of the AO, and the <marker name = 'mrk_inf2'>second</marker> is in the south-west.  It would be best to start your search there.
 <br></br><br></br>We know of a <marker name = 'mrk_AAA'>AAA Emplacement</marker> in the AO.  LZ Balcony will remain closed until the AAA here is confirmed to be disabled or destroyed.

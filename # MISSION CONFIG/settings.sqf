@@ -23,10 +23,10 @@ sia_f_civTickets = 0;
 // Mission Info
 // Give a custom name for the mission and faction(s) the players will be playing as. If left blank, the name as listed in the game will be used by default.
 
-sia_f_missionName = "";
-sia_f_missionLocationName = "";
+sia_f_missionName = "Mail Accident";
+sia_f_missionLocationName = "Lythium";
 
-sia_f_bluforFactionName = "";
+sia_f_bluforFactionName = "US Army";
 
 sia_f_showStatusHint = true; // Toggle persistent info display.
 

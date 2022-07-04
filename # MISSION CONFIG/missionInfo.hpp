@@ -9,7 +9,7 @@ SEE https://community.bistudio.com/wiki/Arma_3:_Respawn#Official_Templates for m
 
 */
 
-respawnTemplates[] = {"ace_spectator","Counter","Tickets", "MenuPosition"}; // RESPAWN SETTINGS. 
+respawnTemplates[] = {"ace_spectator","Counter", "MenuPosition"}; // RESPAWN SETTINGS. 
 
 // ==================================================================================
 
@@ -21,4 +21,4 @@ onLoadMission = "US Special Forces attempt to capture an HVT."; // LOADING SCREE
 
 //loadScreen = "loadScreen.jpg"; // OPTIONAL LOADING SCREEN IMAGE (must be a 2:1 .JPG or .PAA file in your mission folder)
 
-respawnDelay=30; // RESPAWN TIMER IN SECONDS. NOTE: IF USING TEMPLATE "Wave", RESPAWN DELAY IS THE MEDIAN RESPAWN TIME, NOT MAX 
+respawnDelay=60; // RESPAWN TIMER IN SECONDS. NOTE: IF USING TEMPLATE "Wave", RESPAWN DELAY IS THE MEDIAN RESPAWN TIME, NOT MAX 

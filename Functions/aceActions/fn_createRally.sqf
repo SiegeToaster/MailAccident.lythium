@@ -36,9 +36,9 @@ missionNamespace setVariable [_squad + "CanSetRally", false, true];
 	} forEach allUnits;
 	[
 		{ { _x distance (_this # 0) < 100 } forEach (_this # 1) || isNull (_this # 0) },
-		{ if (alive (_this # 0)) then { deleteVehicle (_this # 0) }; "1" remoteExec ["systemChat"]; /* code executed once condition is true */ },
+		{ if (alive (_this # 0)) then { deleteVehicle (_this # 0) }; /* code executed once condition is true */ },
 		[_rally, _opforUnits],
 		1200 /* rally burns after 20 mins */,
-		{ deleteVehicle (_this # 0); "2" remoteExec ["systemChat"]; }
+		{ deleteVehicle (_this # 0); }
 	] call CBA_fnc_waitUntilAndExecute;
-}, [_player, _squad], 0.75 * timeMultiplier] call CBA_fnc_waitAndExecute;
+}, [_player, _squad], 0.75] call CBA_fnc_waitAndExecute;
