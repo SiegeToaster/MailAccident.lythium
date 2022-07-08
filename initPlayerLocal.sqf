@@ -48,6 +48,7 @@ private _mainIntelAction = [
 	"",
 	{
 		params ["_target", "_player"];
+		_player playMove "AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon_Putdown";
 		deleteVehicle _target;
 		{ _x setMarkerAlpha 1; } forEach ["mrk_hvtPos1", "mrk_hvtPos2"];
 		[_player, "This intel contains information on the HVT's location.  I should mark these locations on my map."] remoteExec ["sideChat"];
@@ -62,6 +63,7 @@ private _campIntelAction = [
 	"",
 	{
 		params ["_target", "_player"];
+		_player playMove "AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon_Putdown";
 		deleteVehicle _target;
 		"mrk_insCamp" setMarkerAlpha 1;
 		[_player, "This intel contains information on an insurgent camp.  I should mark its positions on my map."] remoteExec ["sideChat"];
@@ -76,9 +78,10 @@ private _hvt1IntelAction = [
 	"",
 	{
 		params ["_target", "_player"];
+		_player playMove "AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon_Putdown";
 		deleteVehicle _target;
 		"mrk_hvt1" setMarkerAlpha 1;
-		[_player, "This unsecured laptop says that the HVT is within 800 meters of this camp.  I should mark this information on my map."] remoteExec ["sideChat"];
+		[_player, "This unsecured laptop says that the HVT is within 1 kilometer of this camp.  I should mark this information on my map."] remoteExec ["sideChat"];
 	},
 	{ true }
 ] call ace_interact_menu_fnc_createAction;
@@ -90,6 +93,7 @@ private _hvt2IntelAction = [
 	"",
 	{
 		params ["_target", "_player"];
+		_player playMove "AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon_Putdown";
 		deleteVehicle _target;
 		"mrk_hvt2" setMarkerAlpha 1;
 		[_player, "This notepad says that the informant saw a lot of insurgent vehicles moving north on the nearby road.  I should mark this information on my map."] remoteExec ["sideChat"];
